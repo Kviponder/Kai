@@ -1,3 +1,55 @@
-.App {
-  text-align: center;
+/* Nav component */
+.Nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.Nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Nav li {
+  margin-bottom: 0.5rem;
+}
+
+.Nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.Nav a:hover {
+  color: #000;
+}
+
+/* Header component */
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.header Nav {
+  margin-top: 1rem;
+}
+
+/* Footer component */
+.footer {
+  background-color: #fff;
+  padding: 2rem 0;
+}
+
+.footer .social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .social-links a {
+  margin-right: 1rem;
 }
