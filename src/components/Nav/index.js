@@ -8,14 +8,13 @@ function Nav(props) {
     { name: "Portfolio", tab: "Portfolio" },
     { name: "Contact", tab: "Contact" },
     { name: "Resume", tab: "Resume" },
-    { name: "Blog", tab: "Blog"}
   ];
 
   return (
-    <nav className="Nav">
-      <ul className="flex-row nav nav-tabs">
+    <nav className= "Nav navbar navbar-default">
+      <ul className="flex-row nav nav-tabs ">
         {menuItems.map((item) => (
-          <li className="mx-2" key={item.tab}>
+          <li key={item.tab}>
             <a href={`#${item.tab}`} onClick={() => setCurrentTab(item.tab)}>
               {item.name}
             </a>

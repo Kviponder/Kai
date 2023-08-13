@@ -1,31 +1,7 @@
 /* Nav component */
-.Nav {
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
-}
-
-.Nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.Nav li {
-  margin-bottom: 0.5rem;
-}
-
-.Nav a {
-  text-decoration: none;
-  color: #333;
-}
-
-.Nav a:hover {
-  color: #000;
-}
-
 /* Header component */
 .header {
-  background-color: #000;
+  background-color: #ff9933; /* Orange color */
   color: #fff;
   padding: 2rem 0;
 }
@@ -35,13 +11,48 @@
   font-size: 2.5rem;
 }
 
-.header Nav {
+.header nav {
   margin-top: 1rem;
+}
+.Nav {
+  background-color: #fad8b8; /* Cream color */
+  border-bottom: 1px solid #ddd;
+}
+.Nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Nav li {
+  text-align: center;
+  padding: 8px 0;
+  width: 25%;
+}
+.Nav li:hover {
+  background-color: #e9ac73; /* Cream color */
+  text-align: center;
+  padding: 8px 0;
+  width: 25%;
+}
+
+.Nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.Nav a:hover {
+  color: #513626; /* Lighter shade of orange */
+}
+
+.Nav a:active {
+  color: #e89f71; /* Lighter shade of orange */
 }
 
 /* Footer component */
 .footer {
-  background-color: #fff;
+  background-color: #f9d6b7; /* Cream color */
   padding: 2rem 0;
 }
 
@@ -52,4 +63,44 @@
 
 .footer .social-links a {
   margin-right: 1rem;
+}
+
+/* Profile image component */
+.profileImage {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Jumbotron component */
+.jumbotron {
+  background-color: #f9d6b7; /* Cream color */
+  color: #000;
+  padding: 3rem 1rem;
+  margin-bottom: 32px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h1 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.jumbotron p {
+  margin-bottom: 0.5rem;
+}
+
+/*Media Queries*/
+/* Mobile Design - Up to 767px */
+@media (max-width: 767px) {
+  /* Your mobile-specific CSS rules go here */
+}
+
+/* Tablet Design - 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Your tablet-specific CSS rules go here */
+}
+
+/* Desktop Design - 992px and above */
+@media (min-width: 992px) {
+  /* Your desktop-specific CSS rules go here */
 }
