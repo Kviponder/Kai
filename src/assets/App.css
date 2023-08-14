@@ -5,8 +5,15 @@
   padding: 32px 0;
 }
 
-.header h1 {
+.header .header-title {
   margin: 0;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.header .header-icon {
+  margin-right: 10px;
   font-size: 40px;
 }
 

@@ -5,7 +5,7 @@ function JumboTron() {
     <div class="jumbotron responsive" style={{ backgroundImage: `url(${banner})` }}>
       <div class="container text-center">
         <h1>My Portfolio</h1>
-        <p>Some text that represents "Me"...</p>
+        <p>Coding, coffee, and creativity!</p>
       </div>
     </div>
   );

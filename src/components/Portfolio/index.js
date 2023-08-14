@@ -1,58 +1,44 @@
 import React from "react";
+import { FaLaptopCode, FaCode, FaMagic, FaBriefcase, FaUtensils } from 'react-icons/fa'; // Import the icons
 import Project from "../Project";
 import weBlog from "../../assets/Images/we-Blog.png";
 import devSnippets from "../../assets/Images/DevSnippets.png";
+import wardrobe from "../../assets/Images/Wizard.png";
+import happy from "../../assets/Images/Happy.png";
+import rc from "../../assets/Images/rc.png";
 
 function Portfolio() {
   const projects = [
     // Array of project objects: { title, image, deployedLink, githubLink }
     {
-      title: "A Blog App",
+      title: <><FaLaptopCode /> We-Blog a fullstack Blog App</>,
       image: weBlog,
       deployedLink: "https://we-blog-122a1e05c829.herokuapp.com/",
       githubLink: "https://github.com/Kviponder/We-bLog",
     },
     {
-      title: "A private code repository",
+      title: <><FaCode /> A fullstack private code repository</>,
       image: devSnippets,
-      deployedLink: "https://www.google.com",
-      githubLink: "https://www.github.com",
-    },
-    {
-      title: "Project 3",
-      image: "https://via.placeholder.com/150",
       deployedLink: "https://devsnippets-da01809da9d1.herokuapp.com/",
       githubLink: "https://github.com/Kviponder/DevSnippets",
     },
     {
-      title: "Project 4",
-      image: "https://via.placeholder.com/150",
-      deployedLink: "https://www.google.com",
-      githubLink: "https://www.github.com",
+      title: <><FaMagic /> Wardrobe Wizard Simplifying Your Closet Management</>,
+      image: wardrobe,
+      deployedLink: "https://wardrobewizard.herokuapp.com/",
+      githubLink: "https://github.com/batwood99/Wardrobe-Wizard",
     },
     {
-      title: "Project 5",
-      image: "https://via.placeholder.com/150",
-      deployedLink: "https://www.google.com",
-      githubLink: "https://www.github.com",
+      title: <><FaBriefcase /> Happy Cleaning Co. A front-end cleaning service website</>,
+      image: happy,
+      deployedLink: "https://kviponder.github.io/happyCleaningCo/",
+      githubLink: "https://github.com/Kviponder/happyCleaningCo",
     },
     {
-      title: "Project 6",
-      image: "https://via.placeholder.com/150",
-      deployedLink: "https://www.google.com",
-      githubLink: "https://www.github.com",
-    },
-    {
-      title: "Project 7",
-      image: "https://via.placeholder.com/150",
-      deployedLink: "https://www.google.com",
-      githubLink: "https://www.github.com",
-    },
-    {
-      title: "Project 8",
-      image: "https://via.placeholder.com/150",
-      deployedLink: "https://www.google.com",
-      githubLink: "https://www.github.com",
+      title: <><FaUtensils /> Roullette Chef a random recipe generator</>,
+      image: rc,
+      deployedLink: "https://kviponder.github.io/Roulette-Chef/",
+      githubLink: "https://github.com/Kviponder/Roulette-Chef",
     },
   ];
 

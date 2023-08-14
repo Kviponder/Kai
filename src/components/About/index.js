@@ -10,22 +10,22 @@ function About() {
             <ProfileImage />
           </div>
           <div className="col-md-6">
-            <p>
-              Hello! I'm [Your Name], a passionate and creative web developer
-              based in [Your Location]. With a background in [Your Relevant
-              Background], I specialize in building modern and user-friendly web
-              applications using the latest technologies.
+          <p>
+              Hello! I'm Kai Ponder, a passionate and creative web developer
+              who recently moved from Orlando to Marion, Indiana. With a strong
+              focus on backend technologies and a fullstack skill set, I specialize
+              in building robust and efficient web applications.
             </p>
             <p>
-              I enjoy turning complex problems into simple, beautiful, and
-              intuitive designs. When I'm not coding, you can find me exploring
-              the outdoors, reading a good book, or experimenting with new
-              cooking recipes.
+              I enjoy tackling complex challenges and transforming them into
+              elegant and user-friendly solutions. When I'm not immersed in code,
+              you might find me exploring the outdoors, getting lost in a captivating
+              book, or experimenting with new recipes in the kitchen.
             </p>
             <p>
-              Let's work together and bring your ideas to life. Feel free to
-              reach out to me through the contact form or connect with me on
-              [Your Social Media].
+              Let's collaborate to turn your ideas into reality! Don't hesitate to
+              get in touch with me through the contact form or connect with me on
+              Instagram at <a href="https://www.instagram.com/Kvi_ponder" target="_blank" rel="noopener noreferrer">@Kvi_ponder</a>.
             </p>
           </div>
         </div>
