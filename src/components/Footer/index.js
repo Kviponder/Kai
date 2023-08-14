@@ -1,15 +1,22 @@
-function Footer() {
-    return (
-      <footer className="footer">
-        <div className="container">
-          <div className="social-links">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          </div>
+function Footer() {
+  return (
+    <footer className="footer">
+      <div className="container">
+        <div className="social-links">
+          <a href="https://github.com/Kviponder" target="_blank" rel="noopener noreferrer">
+            <FaGithub className="icon" />
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/kai-ponder-b38426284/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="icon" />
+            LinkedIn
+          </a>
         </div>
-      </footer>
-    );
-  }
-  
-  export default Footer;
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;

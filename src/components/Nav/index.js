@@ -1,8 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-function Nav(props) {
-  const {setCurrentTab} = props
-
+function Nav({ setCurrentTab }) {
   const menuItems = [
     { name: "About me", tab: "About" },
     { name: "Portfolio", tab: "Portfolio" },
@@ -11,11 +9,17 @@ function Nav(props) {
   ];
 
   return (
-    <nav className= "Nav navbar navbar-default">
+    <nav className="Nav navbar navbar-default">
       <ul className="flex-row nav nav-tabs ">
         {menuItems.map((item) => (
           <li key={item.tab}>
-            <a href={`#${item.tab}`} onClick={() => setCurrentTab(item.tab)}>
+            <a
+              href={`#${item.tab}`}
+              onClick={(e) => {
+                e.preventDefault();
+                setCurrentTab(item.tab);
+              }}
+            >
               {item.name}
             </a>
           </li>
