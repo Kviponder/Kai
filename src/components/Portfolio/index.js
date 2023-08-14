@@ -1,10 +1,12 @@
 import React from 'react';
 import Project from '../Project';
+import weBlog from "../../assets/Images/we-Blog.png";
+
 
 function Portfolio() {
   const projects = [
     // Array of project objects: { title, image, deployedLink, githubLink }
-    {title: "Project 1", image: "https://via.placeholder.com/150", deployedLink: "https://www.google.com", githubLink: "https://www.github.com"},
+    {title: "A Blog App", image: weBlog, deployedLink: "https://we-blog-122a1e05c829.herokuapp.com/", githubLink: "https://github.com/Kviponder/We-bLog"},
     {title: "Project 2", image: "https://via.placeholder.com/150", deployedLink: "https://www.google.com", githubLink: "https://www.github.com"},
     {title: "Project 3", image: "https://via.placeholder.com/150", deployedLink: "https://www.google.com", githubLink: "https://www.github.com"},
     {title: "Project 4", image: "https://via.placeholder.com/150", deployedLink: "https://www.google.com", githubLink: "https://www.github.com"},
