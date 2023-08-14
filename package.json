@@ -2,6 +2,7 @@
   "name": "reactport",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kviponder.github.io/KaisFinalPort",
   "dependencies": {
     "bootstrap": "^5.3.1",
     "email-validator": "^2.0.4",
