@@ -1,6 +1,6 @@
 # My Portfolio
 
-[GitHub Repository](https://github.com/Kviponder/KaisFinalPort) | [Live Page](https://kviponder.github.io/KaisFinalPort/)
+[GitHub Repository](https://github.com/Kviponder/Kai) | [Live Page](https://kviponder.github.io/Kai/)
 
 Welcome to my portfolio website! My name is Kai Ponder, and I'm a full-stack web developer located in Marion, Indiana. This project showcases my skills, projects, and information about me as a web developer. Feel free to explore the different sections to learn more about my background, projects, and ways to connect with me.
 
