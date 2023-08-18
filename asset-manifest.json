@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Kai/static/css/main.36114451.css",
-    "main.js": "/Kai/static/js/main.ed3e235b.js",
+    "main.css": "/Kai/static/css/main.b7997523.css",
+    "main.js": "/Kai/static/js/main.1671f7a1.js",
     "static/media/rc.png": "/Kai/static/media/rc.977652757339570f48f1.png",
     "static/media/banner.png": "/Kai/static/media/banner.c7241fec4ef000f0ea87.png",
     "static/media/Happy.png": "/Kai/static/media/Happy.21b54c69e8d757689fe3.png",
     "static/media/DevSnippets.png": "/Kai/static/media/DevSnippets.85db647e71f74b64a1fa.png",
     "static/media/we-Blog.png": "/Kai/static/media/we-Blog.cbd6aaf38b28b9d9c7b9.png",
     "static/media/Wizard.png": "/Kai/static/media/Wizard.b015743dcb15b52f5219.png",
+    "static/media/Kai-Resume.pdf": "/Kai/static/media/Kai-Resume.298395f73208c206d7d5.pdf",
     "static/media/KaiGar.jpeg": "/Kai/static/media/KaiGar.fccbf6b8a2c2116b318b.jpeg",
     "index.html": "/Kai/index.html",
-    "main.36114451.css.map": "/Kai/static/css/main.36114451.css.map",
-    "main.ed3e235b.js.map": "/Kai/static/js/main.ed3e235b.js.map"
+    "main.b7997523.css.map": "/Kai/static/css/main.b7997523.css.map",
+    "main.1671f7a1.js.map": "/Kai/static/js/main.1671f7a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.36114451.css",
-    "static/js/main.ed3e235b.js"
+    "static/css/main.b7997523.css",
+    "static/js/main.1671f7a1.js"
   ]
 }
