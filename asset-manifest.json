@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Kai/static/css/main.b7997523.css",
+    "main.css": "/Kai/static/css/main.63492a93.css",
     "main.js": "/Kai/static/js/main.1671f7a1.js",
     "static/media/rc.png": "/Kai/static/media/rc.977652757339570f48f1.png",
     "static/media/banner.png": "/Kai/static/media/banner.c7241fec4ef000f0ea87.png",
@@ -11,11 +11,11 @@
     "static/media/Kai-Resume.pdf": "/Kai/static/media/Kai-Resume.298395f73208c206d7d5.pdf",
     "static/media/KaiGar.jpeg": "/Kai/static/media/KaiGar.fccbf6b8a2c2116b318b.jpeg",
     "index.html": "/Kai/index.html",
-    "main.b7997523.css.map": "/Kai/static/css/main.b7997523.css.map",
+    "main.63492a93.css.map": "/Kai/static/css/main.63492a93.css.map",
     "main.1671f7a1.js.map": "/Kai/static/js/main.1671f7a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7997523.css",
+    "static/css/main.63492a93.css",
     "static/js/main.1671f7a1.js"
   ]
 }
